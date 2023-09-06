@@ -1,0 +1,96 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;700&family=Martel:wght@600;900&family=Nunito+Sans:ital,wght@1,200&display=swap');
+
+/* GENERAL */
+.totalApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;  
+    background-position: center center;
+    background-size: cover;  
+}
+
+
+/* CARD */
+
+.appCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 16.5em;
+    height: 30.5em;
+    border-radius: 1.2em;
+}
+
+/* HEADER */
+
+.titleHeader {
+    font-family: 'Martel', serif;
+    font-weight: 900;
+}
+
+.locationHeader {
+    font-family: 'Martel', serif;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+/* CONTENT */
+
+.iconBody {
+    display: flex;
+    justify-content: center;    
+}
+
+.descriptionBody {
+    display: flex;
+    justify-content: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    margin: auto;
+ }
+
+ .subtitleInfo {    
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+ }
+
+ .descriptionInfo {    
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+ }
+
+ .listBody {       
+    list-style: none;
+    margin-right: 2.5em; 
+ }
+
+ /* FOOTER */
+
+ .temperatureFooter {
+    display: flex;
+    justify-content: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+ }
+
+ .buttonFooter {
+    font-family: 'Martel', serif;
+    font-weight: 600;
+    background-color: #092E63;
+    color: white;
+    border-radius: 0.4em;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0.3em 0.8em;
+ }
+
+ .buttonFooter:hover {
+    scale: 1.04;
+    color: #092E63;
+    background-color: white;
+ }
+
